@@ -1,0 +1,52 @@
+.form-article {
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 200px 400px;
+    gap: 15px;
+    margin: 60px 80px;
+    padding: 40px 0;
+    border: 2px solid black;
+    border-radius: 12px;
+    box-shadow: 1px 1px 12px 3px grey;
+}
+
+.form-article label {
+    font-size: 25px;
+}
+
+.form-article input {
+    font-size: 25px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 7px 2px black;
+    background-color: skyblue;
+}
+
+.form-article textarea {
+    border-radius: 12px;
+    box-shadow: 1px 1px 7px 2px black;
+    background-color: skyblue;
+}
+
+.form-article .check-box {
+    width: 25px;
+    height: 25px;
+}
+
+.form-article .btn-submit {
+    color: white;
+    background: #1D2733;
+    font-size: 23px;
+    border: 2px solid white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    grid-column: 1 / span 2;
+}
+
+.form-article .btn-submit:hover {
+    cursor: pointer;
+    background: skyblue;
+    color: #1D2733;
+    transition: all 0.3s ease;
+}
